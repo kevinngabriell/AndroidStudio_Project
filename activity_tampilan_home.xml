@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/ConstraintLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#eeeff4"
+    tools:context=".tampilanHome">
+
+    <TextView
+        android:id="@+id/textWelcome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-medium"
+        android:text="Welcome!"
+        android:textColor="#3E3E3E"
+        android:textSize="24dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.101"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.077" />
+
+    <ImageButton
+        android:id="@+id/AsuransiKebakaran"
+        android:layout_width="150dp"
+        android:layout_height="160dp"
+        android:layout_weight="1"
+        android:background="#00000000"
+        android:scaleType="fitCenter"
+        android:src="@drawable/kebakaran1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.9"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.894"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <ImageButton
+        android:id="@+id/CekPembayaran"
+        android:layout_width="150dp"
+        android:layout_height="160dp"
+        android:layout_weight="1"
+        android:background="#00000000"
+        android:scaleType="fitCenter"
+        android:src="@drawable/cekbayar1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.122"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.57"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <ImageButton
+        android:id="@+id/AsuransiKendaraan"
+        android:layout_width="150dp"
+        android:layout_height="160dp"
+        android:layout_weight="1"
+        android:background="#00000000"
+        android:scaleType="fitCenter"
+        android:src="@drawable/kendaraan1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.122"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.236"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <ImageButton
+        android:id="@+id/CekPolis"
+        android:layout_width="150dp"
+        android:layout_height="160dp"
+        android:layout_weight="1"
+        android:background="#00000000"
+        android:scaleType="fitCenter"
+        android:src="@drawable/polis"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.9"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.57"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <ImageButton
+        android:id="@+id/AsuransiKecelakaan"
+        android:layout_width="150dp"
+        android:layout_height="160dp"
+        android:layout_weight="1"
+        android:background="#00000000"
+        android:scaleType="fitCenter"
+        android:src="@drawable/kecelakaan1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.122"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.894"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <ImageButton
+        android:id="@+id/StatusKlaim"
+        android:layout_width="150dp"
+        android:layout_height="160dp"
+        android:layout_weight="1"
+        android:background="#00000000"
+        android:scaleType="fitCenter"
+        android:src="@drawable/claim"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.9"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.236"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <TextView
+        android:id="@+id/txtAsuransiKecelakaan"
+        android:layout_width="106dp"
+        android:layout_height="33dp"
+        android:layout_weight="1"
+        android:clickable="true"
+        android:text="Asuransi Kecelakaan"
+        android:textAlignment="center"
+        android:textColor="#3E3E3E"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.183"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.885" />
+
+    <TextView
+        android:id="@+id/txtCekPembayaran"
+        android:layout_width="106dp"
+        android:layout_height="33dp"
+        android:layout_weight="1"
+        android:clickable="true"
+        android:text="Cek Pembayaran"
+        android:textAlignment="center"
+        android:textColor="#3E3E3E"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.183"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.607" />
+
+    <TextView
+        android:id="@+id/txtCekPolis"
+        android:layout_width="106dp"
+        android:layout_height="33dp"
+        android:layout_weight="1"
+        android:clickable="true"
+        android:text="Cek Polis"
+        android:textAlignment="center"
+        android:textColor="#3E3E3E"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.862"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.607" />
+
+    <TextView
+        android:id="@+id/txtAsuransiKendaraan"
+        android:layout_width="106dp"
+        android:layout_height="33dp"
+        android:layout_weight="1"
+        android:clickable="true"
+        android:fontFamily="sans-serif"
+        android:text="Asuransi Kendaraan"
+        android:textAlignment="center"
+        android:textColor="#3E3E3E"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.183"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.328" />
+
+    <TextView
+        android:id="@+id/txtStatusKlaim"
+        android:layout_width="106dp"
+        android:layout_height="33dp"
+        android:layout_weight="1"
+        android:clickable="true"
+        android:fontFamily="sans-serif"
+        android:text="Status Klaim"
+        android:textAlignment="center"
+        android:textColor="#3E3E3E"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.836"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.328" />
+
+    <TextView
+        android:id="@+id/txtAsuransiKebakaran"
+        android:layout_width="106dp"
+        android:layout_height="33dp"
+        android:layout_weight="1"
+        android:clickable="true"
+        android:text="Asuransi Kebakaran"
+        android:textAlignment="center"
+        android:textColor="#3E3E3E"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.862"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.885" />
+
+    <ImageButton
+        android:id="@+id/btnContactUs"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#00FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.952"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.024"
+        app:srcCompat="@drawable/ic_baseline_account_circle_24" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
